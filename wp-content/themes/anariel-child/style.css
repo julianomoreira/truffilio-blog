@@ -1,0 +1,64 @@
+/* 
+Theme Name: Anariel Child
+Theme URL: http://yourdomain.com
+Description: Anariel Child
+Theme Author: Juliano Silva
+Author URL: https://julianosilva.me
+Template: anariel 
+Version: 1.0.0 
+Text Domain: anariel-child 
+*/
+
+body {
+    color: #666;
+}
+h1 {
+    font-style: normal!important;    
+    color: #9F5F98;
+}
+.pagenav {
+    border-top: 8px solid #9F5F98;    
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.menu > li:first-child a, .menu > li:last-child a {    
+    padding-left: 15px;
+}
+.pagenav a {
+    /* font-size: 16px; */
+}
+.pagenav .current_page_item a {
+    font-weight: bold;
+    background-color: #9F5F98;
+    color: #fff!important;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.title a, .title {
+    color: #9F5F98;
+    font-weight: bold!important;
+    font-style: normal!important;
+}
+.topBlog, .post-meta {
+    background-color: transparent;
+}
+.mainwrap {
+    border-top: 1px solid #c1c1c1;
+}
+.blog-category a {
+    background-color: #FFEAFD;
+    border-radius: 5px;    
+}
+.aboutme-photo {
+    border-bottom: 6px solid #9F5F98;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.anariel-read-more a {
+    border-radius: 10px;
+    font-size: 16px;
+    font-style: normal!important;
+    text-transform: uppercase;
+    font-family: Merriweather, "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
+    background-color: #5F9F8C;
+}
